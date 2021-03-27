@@ -1,7 +1,7 @@
 # Webdev Project
 
-Alikhan Bissakov
-...
-...
+Alikhan Bissakov\n\n
+...\n\n
+...\n\n
 
 
