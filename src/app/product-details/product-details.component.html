@@ -1,0 +1,22 @@
+<h2>Product Details</h2>
+
+<div *ngIf="product">
+  <img [src]="product.link">
+  <img [src]="product.link2">
+  <h3>{{ product.name }}</h3>
+  <h4>{{ product.price | currency }}</h4>
+  <p style="text-align: justify;padding: 0px 750px;">{{ product.description }}</p>
+
+  <button (click)="addToCart(product)">Buy</button>
+
+  <ng-container>
+    <button id="share" style="background-color: green">
+      <a href="https://api.whatsapp.com/send/?phone&text=https%3A%2F%2Fwww.shorturl.at%2FcBDF4+Apple+Lightnin+3.5+mm+Headphone+Jack+Adapter&app_absent=0">WhatsApp</a>
+    </button>
+    <button id="share">
+      <a href="https://telegram.me/share/url?url=https://www.shorturlcBDF4&text=Apple%20Lightning%20to%203.5%20mm%20Headphone%20Jack%20Adapter">Telegram</a>
+    </button>
+  </ng-container>
+
+
+</div>
