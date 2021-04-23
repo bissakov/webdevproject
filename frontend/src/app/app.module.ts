@@ -21,6 +21,7 @@ import { SignupComponent } from './signup/signup.component';
     HttpClientModule,
     ReactiveFormsModule,
     RouterModule.forRoot([
+      { path: '', component: ProductListComponent },
       { path: 'home', component: ProductListComponent },
       { path: 'products/:productId', component: ProductDetailsComponent },
       { path: 'cart', component: CartComponent },
