@@ -44,7 +44,16 @@ import { SignupComponent } from './signup/signup.component';
     SignupComponent
   ],
   bootstrap: [
-    AppComponent
+    AppComponent,
+    TopBarComponent,
+    ProductListComponent,
+    ProductAlertsComponent,
+    ProductDetailsComponent,
+    CartComponent,
+    ShippingComponent,
+    AboutComponent,
+    LoginComponent,
+    SignupComponent
   ]
 })
 export class AppModule { }

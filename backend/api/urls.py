@@ -4,7 +4,7 @@ from django.urls import path, include, re_path
 from django.http import HttpResponse
 
 def home(request):
-    return render(request, 'store/front-end-render.html')
+    return render(request, 'store/index.html')
 
 def about(request):
     return HttpResponse('About')

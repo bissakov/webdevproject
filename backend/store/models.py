@@ -50,7 +50,7 @@ class Order(models.Model):
 class OrderProduct(models.Model):
     product = models.ForeignKey(Product,on_delete=models.CASCADE)
     order = models.ForeignKey(Order,on_delete=models.CASCADE)
-    ammount = models.IntegerField(default=0)
+    amount = models.IntegerField(default=0)
     class Meta:
         verbose_name = 'OrderProduct'
         verbose_name_plural = 'OrderProducts'

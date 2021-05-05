@@ -14,6 +14,7 @@ export class ProductListComponent {
   selectedOption = '';
 
   constructor(
+    private route: ActivatedRoute,
     private cartService: CartService,
   ) {
   }
