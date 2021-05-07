@@ -1,28 +1,6 @@
 from rest_framework import serializers
 from store.models import Consumer,Category,Product,Order,OrderProduct
 
-# class ProductSerializer(serializers.Serializer):
-#     id = serializers.IntegerField(read_only=True)
-#     name = serializers.CharField(required=True, allow_blank=True, max_length=250)
-#     description = serializers.CharField(required=True, allow_blank=True, max_length=500)
-#     price = serializers.IntegerField(read_only=True)
-#     category = serializers.CharField(required=True, allow_blank=True, max_length=250)
-#     likes = serializers.IntegerField(read_only=True)
-
-
-#     def create(self, validated_data):
-#         return Product.objects.create(**validated_data)
-
-#     def update(self, instance, validated_data):
-#         instance.id = validated_data.get('id', instance.id)
-#         instance.name = validated_data.get('name', instance.name)
-#         instance.description = validated_data.get('description', instance.description)
-#         instance.price = validated_data.get('price', instance.price)
-#         instance.category = validated_data.get('category', instance.category)
-#         instance.likes = validated_data.get('likes', instance.likes)
-#         instance.save()
-#         return instance
-
 class ConsumerModelSerializer(serializers.ModelSerializer):
     class Meta:
         model = Product
@@ -47,3 +25,24 @@ class OrderProductModelSerializer(serializers.ModelSerializer):
     class Meta:
         model = Product
         fields = ('product', 'order', 'amount')
+
+# class RegistrationModelSerializer(serializers.ModelSerializer):
+#     password2 = serializers.CharField(style={'input_type': 'password'}, write_only=True)
+#     class Meta:
+#         model = Account
+#         fields = ['email', 'username', 'password', 'password2']
+#         extra_kwarg = {
+#             'password': {'write_only': True}
+#         }
+
+#     def save(self):
+#         account = Account(
+#             email = self.validated_data['email'].
+#             username = self.validated_data['username'],
+#         )
+#         password = self.validated_data['password']
+#         password2 = self.validated_data['password2']
+#         if password != password2:
+#             raise serializers.ValidationError({'password': 'Passwords must match.'})
+#         account.set_password(password)
+#         account.save()

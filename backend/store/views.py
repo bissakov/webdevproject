@@ -38,18 +38,3 @@ def categoryViewSet(request):
     queryset = Category.objects.all()
     serializer = CategoryModelSerializer(queryset, many=True)
     return Response(serializer.data)
-# class ConsumerViewSet(viewsets.ModelViewSet):
-#     queryset = User.objects.all()
-#     serializer_class = ConsumerModelSerializer
-
-# class CategoryViewSet(viewsets.ModelViewSet):
-#     queryset = User.objects.all()
-#     serializer_class = CategoryModelSerializer
-
-# class OrderViewSet(viewsets.ModelViewSet):
-#     queryset = User.objects.all()
-#     serializer_class = OrderModelSerializer
-
-# class OrderProductViewSet(viewsets.ModelViewSet):
-#     queryset = User.objects.all()
-#     serializer_class = OrderProductModelSerializer

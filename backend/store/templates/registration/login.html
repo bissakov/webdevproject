@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Log-In</title>
+        <style>
+            * {
+                text-align: center;
+            }
+            p {
+                margin: 10px;
+            }
+            input[type=username], input[type=psw] {
+                width: 100%;
+                display: inline-block;
+                border: 1px solid #ccc;
+                box-sizing: border-box;
+            }
+
+            input[type=submit] {
+                background-color: #1976d2;
+                color: white;
+                padding: 14px 20px;
+                margin: 20px 0;
+                border: none;
+                cursor: pointer;
+                width: 70%;
+            }
+
+            input[type=submit]:hover {
+                opacity: 0.8;
+            }
+
+            .container {
+                padding: 16px;
+            }
+
+            span.psw {
+                float: right;
+                padding-top: 16px;
+            }
+
+            .box {
+                background-color: #fefefe;
+                margin: 5% auto 15% auto;
+                border: 1px solid #888;
+                width: 15%;
+            }
+
+        </style>
+    </head>
+    <body>
+        {% if form.errors %}
+        <p>ENTER ERROR</p>
+        {% endif %}
+
+        {% if next %}
+        <p>ACCESS ERROR</p>
+        {% endif %}
+
+        <form method="post" action="{% url 'login' %}" class="box">
+            <div class="container">
+                {% csrf_token %}
+                <p><label for="username"><b>Username</b></label></p>
+                {{ form.username }}
+                <p><label for="psw"><b>Password</b></label></p>
+                {{ form.password }}
+                <input type="submit" value="login">
+                <input type="hidden" name="next" value="{{next}}">
+            </div>
+        </form>
+    </body>
+</html>
+  

@@ -27,8 +27,6 @@ import { SignupComponent } from './signup/signup.component';
       { path: 'cart', component: CartComponent },
       { path: 'shipping', component: ShippingComponent },
       { path: 'about', component: AboutComponent },
-      { path: 'login', component: LoginComponent},
-      { path: 'signup', component: SignupComponent},
     ])
   ],
   declarations: [
