@@ -2,25 +2,54 @@ from django.shortcuts import render
 from django.contrib.auth.models import User, Group
 from rest_framework import viewsets
 from rest_framework import permissions
+from django.http import JsonResponse,HttpResponse
 from store.models import Consumer,Category,Product,Order,OrderProduct
-from serializers import ConsumerSerializer,CategorySerializer,ProductSerializer,OrderSerializer,OrderProductSerializer
+from store.serializers import ConsumerModelSerializer,CategoryModelSerializer,ProductModelSerializer,OrderModelSerializer,OrderProductModelSerializer
 
-class ConsumerViewSet(viewsets.ModelViewSet):
-    queryset = User.objects.all()
-    serializer_class = ConsumerSerializer
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
+from rest_framework.views import APIView
 
-class CategoryViewSet(viewsets.ModelViewSet):
-    queryset = User.objects.all()
-    serializer_class = CategorySerializer
+from django.core import serializers
 
-class ProductViewSet(viewsets.ModelViewSet):
-    queryset = User.objects.all()
-    serializer_class = ProductSerializer
+@api_view(['GET'])
+def apiOverview(request):
+    api_urls = {
+        'Product-list': '/product-list',
+        'Product-detail': '/product-list/<str:pk>/',
+        'Category-list': '/category-list',
+    }
+    return Response(api_urls)
 
-class OrderViewSet(viewsets.ModelViewSet):
-    queryset = User.objects.all()
-    serializer_class = OrderSerializer
+class ProductViewSet(APIView):
+    def get(self,request,format=None):
+        queryset = Product.objects.all()
+        serializer = ProductModelSerializer(queryset, many=True)
+        return Response(serializer.data)
 
-class OrderProductViewSet(viewsets.ModelViewSet):
-    queryset = User.objects.all()
-    serializer_class = OrderProductSerializer
+class ProductDetailViewSet(APIView):
+    def get(self,request,pk,format=None):
+        queryset = Product.objects.get(id=pk)
+        serializer = ProductModelSerializer(queryset, many=False)
+        return Response(serializer.data)
+
+@api_view(['GET'])
+def categoryViewSet(request):
+    queryset = Category.objects.all()
+    serializer = CategoryModelSerializer(queryset, many=True)
+    return Response(serializer.data)
+# class ConsumerViewSet(viewsets.ModelViewSet):
+#     queryset = User.objects.all()
+#     serializer_class = ConsumerModelSerializer
+
+# class CategoryViewSet(viewsets.ModelViewSet):
+#     queryset = User.objects.all()
+#     serializer_class = CategoryModelSerializer
+
+# class OrderViewSet(viewsets.ModelViewSet):
+#     queryset = User.objects.all()
+#     serializer_class = OrderModelSerializer
+
+# class OrderProductViewSet(viewsets.ModelViewSet):
+#     queryset = User.objects.all()
+#     serializer_class = OrderProductModelSerializer

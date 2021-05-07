@@ -16,6 +16,7 @@ class Command(BaseCommand):
                     cat.name = data[i]['category']
                     cat.save()
                 prod = Product()
+                prod.id = data[i]['id']
                 prod.name = data[i]['name']
                 prod.description = data[i]['description']
                 prod.category = cat

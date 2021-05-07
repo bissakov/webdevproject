@@ -8,13 +8,11 @@ from django.conf.urls.static import static
 def home(request):
     return render(request, 'store/index.html')
 
-def about(request):
-    return HttpResponse('About')
-
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', home),
-    path('about/', about),
+    #path('api/', views.apiOverview, name='api-overview')
+    path('api/', include('store.urls')),
     #path('login',Auth.as_view())
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 

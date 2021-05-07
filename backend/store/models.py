@@ -24,6 +24,7 @@ class Category(models.Model):
         verbose_name_plural = 'Categories'
 
 class Product(models.Model):
+    id = models.IntegerField(primary_key=True)
     name = models.CharField(max_length=250,default='')
     description = models.TextField(max_length=500,default='')
     image = models.ImageField(upload_to='assets',null=True,blank=True)
