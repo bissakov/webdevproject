@@ -1,23 +1,25 @@
-<select id="category" (change)="hidecategory($event)">
-  <option value="all">All</option>
-  <option value="camera and photo">Camera and Photo</option>
-  <option value="tv and monitors">TV and Monitors</option>
-  <option value="smart home">Smart Home</option>
-  <option value="headphones">Headphones</option>
-</select>
+<div class="container">
+  <select id="category" (change)="hidecategory($event)" style="position: relative; top: -75px;">
+      <option value="all">All</option>
+      <option value="camera and photo">Camera and Photo</option>
+      <option value="tv and monitors">TV and Monitors</option>
+      <option value="smart home">Smart Home</option>
+      <option value="headphones">Headphones</option>
+    </select>
 
-<div *ngFor="let product of products" class="item">
-  <h3>
-    <a [title]="product.name + ' details'" [routerLink]="['/products', product.id]">
-      {{ product.name }}
-      <img [src]="product.link">
-    </a>
-  </h3>
-  <h4>{{ product.price | currency }}</h4>
-  <h5>Category: {{product.category}}</h5>
+    <div *ngFor="let product of products" class="item">
+      <h3>
+        <a [title]="product.name + ' details'" [routerLink]="['/products', product.id]">
+          {{ product.name }}
+          <img [src]="product.link">
+        </a>
+      </h3>
+      <h4>{{ product.price | currency }}</h4>
+      <h5>Category: {{product.category}}</h5>
 
-  <button (click)="addlike()" class="fa fa-thumbs-up" id="like">{{product.likes}}</button>
-  <button (click)="addToCart(product)">Buy</button>
-  <button (click)="remove()" class="fa fa-times" id="remove"></button>
-</div>
+      <button (click)="addlike()" class="fa fa-thumbs-up" id="like">{{product.likes}}</button>
+      <button (click)="addToCart(product)">Buy</button>
+      <button (click)="remove()" class="fa fa-times" id="remove"></button>
+    </div>
+  </div>
 

@@ -19,13 +19,14 @@ ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
 # Application definition
 
 INSTALLED_APPS = [
+    #'store.apps.StoreConfig',
+    'store',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'store',
     'rest_framework',
 ]
 
@@ -108,7 +109,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+MEDIA_URL = '/assets/'
+STATIC_ROOT = os.path.join(BASE_DIR, STATIC_URL)
+MEDIA_ROOT = os.path.join(STATIC_ROOT, 'assets')
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
+    os.path.join(STATIC_ROOT, 'assets/'),
 )

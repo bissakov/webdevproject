@@ -1,202 +1,202 @@
 [
-	{
-	  "id": 1,
-	  "name": "Lightning to Jack Adapter",
-	  "price": 6.99,
-	  "description": "This adapter lets you connect devices that use a 3.5 mm audio plug to your Lightning devices. Works with all devices that have a Lightning connector and support iOS 10 or later, including iPod touch, iPad, and iPhone.",
-	  "category": "electronics",
-	  "link": "assets/electronics/1/img2.jpg",
-	  "link2": "assets/electronics/1/img1.jpg",
-	  "likes": 596
-	},
-	{
-	  "id": 2,
-	  "name": "NETGEAR Wi-Fi Range Extender",
-	  "price": 46.99,
-	  "description": "NETGEAR AC750 WiFi Range Extender (EX3700-100NAS). System Requirements:2.4 and/or 5GHz, 802.11 a/b/g/n/ac wireless router or gateway, Microsoft. Internet Explorer. 8.0, Firefox. 20, Safari. 5.1, Google Chrome 25.0 browsers or higher. Troubleshooting tip- If you cannot get a WiFi connection working, you can use an Ethernet cable to connect your computer to the extender. Data throughput, signal range, and wireless coverage per sq. ft. may vary due to differences in operating environments of wireless networks, including without limitation building materials and wireless interference. Operating temperature: 32°to 104°F.",
-	  "category": "electronics",
-	  "link": "assets/electronics/2/img1.jpg",
-	  "link2": "assets/electronics/2/img2.jpg",
-	  "likes": 448
-	},
-	{
-	  "id": 3,
-	  "name": "Kasa Smart HS200 TP-link",
-	  "price": 19.99,
-	  "description": "Control your lights, ceiling fans, and other fixtures from anywhere with the Kasa Smart Wi-Fi Light Switch. The smart switch replaces any standard light switch, and connects to your home Wi-Fi in no time through the free Kasa app. Kasa also lets you manage connected fixtures with your smartphone or tablet, including setting schedules, timers and countdowns. For added convenience, you can use your voice to control when paired with Amazon Alexa, Google assistant and Microsoft Cortana. Protocols supported: IEEE 802.11b/g/n; System requirement: Android 4.1 or higher iOS 9.0 or higher; Wireless type: 2.4GHz 1T1R.",
-	  "category": "electronics",
-	  "link": "assets/electronics/3/img1.jpg",
-	  "link2": "assets/electronics/3/img2.jpg",
-	  "likes": 814
-	},
-	{
-	  "id": 4,
-	  "name": "PlayStation 4 Pro 1TB Console",
-	  "price": 332,
-	  "description": "The all new lighter and slimmer PlayStation4 system has a 1TB hard drive for all of the greatest games, TV, music and more. Incredible Games You\"ve come to the right place. Exclusive games take you on incredible journeys, from critically acclaimed indies to award-winning AAA hits. Endless Entertainment Something new and amazing is always in reach. Find what you\"re looking for and get it at the touch of a button via PlayStation entertainment options like PlayStation Vue and more.",
-	  "category": "electronics",
-	  "link": "assets/electronics/4/img1.jpg",
-	  "link2": "assets/electronics/4/img2.png",
-	  "likes": 395
-	},
-	{
-	  "id": 5,
-	  "name": "Acer SB220Q 21.5\" Full HD",
-	  "price": 93.99,
-	  "description": "The Acer SB220Q 21.5 Widescreen IPS display combines stylish ultra-thin functionality with amazing 1920 x 1080 resolution, allowing you to enjoy High-Definition entertainment and gaming in the comfort of your home. AMD Radeon FreeSync and rapid 4ms response time highlight the advanced technology.",
-	  "category": "electronics",
-	  "link": "assets/electronics/5/img2.jpg",
-	  "link2": "assets/electronics/5/img1.jpg",
-	  "likes": 582
-	},
-	{
-	  "id": 6,
-	  "name": "Bounty Quick-Size Paper Towels",
-	  "price": 38.84,
-	  "description": "The Quicker Picker Upper loves when life gets a little messy. With strength and absorbency built into each sheet, Bounty Paper Towels come in clutch for speedy cleanups. Don’t let spills slow you down, Bounty’s got you covered.",
-	  "category": "home and kitchen",
-	  "link": "assets/home and kitchen/1/img1.jpg",
-	  "link2": "assets/home and kitchen/1/img2.jpg",
-	  "likes": 666
-	},
-	{
-	  "id": 7,
-	  "name": "LiBa PEVA 8G Shower Curtain Liner",
-	  "price": 10.99,
-	  "description": "Proprietary Mildew Treatment inhibits mildew growth 4x longer than any other shower liner you’ll find on the market! An active agent with odor protection that works to stop microorganism growth before it can even start, protecting your shower liner for the entirety of its life.",
-	  "category": "home and kitchen",
-	  "link": "assets/home and kitchen/2/img1.jpg",
-	  "link2": "assets/home and kitchen/2/img2.jpg",
-	  "likes": 682
-	},
-	{
-	  "id": 8,
-	  "name": "Dixie Everyday Paper Plates",
-	  "price": 19.99,
-	  "description": "Great for meals, snacks, casual get-togethers, outdoor picnics, or family events, Dixie Everyday paper plates and bowls ease the clean up so you can focus on food, family, friends, and what’s important.",
-	  "category": "home and kitchen",
-	  "link": "assets/home and kitchen/3/img1.jpg",
-	  "link2": "assets/home and kitchen/3/img2.jpg",
-	  "likes": 475
-	},
-	{
-	  "id": 9,
-	  "name": "Kitchen Trash Bags",
-	  "price": 18.50,
-	  "description": "The Quicker Picker Upper loves when life gets a little messy. With strength and absorbency built into each sheet, Bounty Paper Towels come in clutch for speedy cleanups. Don’t let spills slow you down, Bounty’s got you covered.",
-	  "category": "home and kitchen",
-	  "link": "assets/home and kitchen/4/img1.jpg",
-	  "link2": "assets/home and kitchen/4/img2.jpg",
-	  "likes": 898
-	},
-	{
-	  "id": 10,
-	  "name": "Dash DMW001RD Machine",
-	  "price": 14.99,
-	  "description": "Craving blueberry waffles or potato pancakes? with the Dash mini waffle maker, you can make single serve dishes in less than three minutes. The nonstick surface allows you to perfectly cook and Brown whatever is it you make, and is a fun activity for both adults and kids! Unprocessed your food with the recipe book that is included with purchase, and gain access to our database of thousands of recipes for free!.",
-	  "category": "home and kitchen",
-	  "link": "assets/home and kitchen/5/img1.jpg",
-	  "link2": "assets/home and kitchen/5/img2.jpg",
-	  "likes": 700
-	},
-	{
-	  "id": 11,
-	  "name": "Ab Roller for Abs Workout",
-	  "price": 24.97,
-	  "description": "With this fitness ab equipment for abs, building a set of abs of steel just became a whole lot easier. Convenient and easy-to-use. It strengthens your core, burns calories and tones your abdominal. The wheel features non-slip rubber and grips any floor surface. The ab roller wheel is made of stainless steel to ensure long-lasting durability. And features padded handles for a comfortable grip.",
-	  "category": "sports and outdoors",
-	  "link": "assets/sports and outdoors/1/img1.jpg",
-	  "link2": "assets/sports and outdoors/1/img2.jpg",
-	  "likes": 263
-	},
-	{
-	  "id": 12,
-	  "name": "Maste Combination Bike Lock",
-	  "price": 8.33,
-	  "description": "The Master Lock 8143D Preset Combination Cable Lock is 4ft (1.2m) long and features a 5/16in (8mm) diameter braided steel for maximum strength and flexibility. The protective vinyl coating protects against scratches. The 4 dial combination security offers keyless convenience. The Limited Lifetime Warranty provides peace of mind from a brand you can trust.",
-	  "category": "sports and outdoors",
-	  "link": "assets/sports and outdoors/2/img1.jpg",
-	  "link2": "assets/sports and outdoors/2/img2.jpg",
-	  "likes": 421
-	},
-	{
-	  "id": 13,
-	  "name": "Spalding Basketball",
-	  "price": 17.99,
-	  "description": "Performance: Durable outdoor rubber cover. Superior control: Deep channel design for easy handles. Official size: Size 7, 29.5”. Inflation: Shipped inflated and we recommend 8 PSI",
-	  "category": "sports and outdoors",
-	  "link": "assets/sports and outdoors/3/img1.jpg",
-	  "link2": "assets/sports and outdoors/3/img2.jpg",
-	  "likes": 183
-	},
-	{
-	  "id": 14,
-	  "name": "\"Dickies Men\"s Socks Multipack",
-	  "price": 12.99,
-	  "description": "Dickies dri-tech comfort 6 Pairs crew with wicking, moisture management fibers keeps feet dry, ventilation channels engineered for air circulation and moisture control, arch compression hugs feet and keeps socks in place, while providing in-step support, Reciprocated heel and toe for superior fit and full cushion comfort",
-	  "category": "sports and outdoors",
-	  "link": "assets/sports and outdoors/4/img1.jpg",
-	  "link2": "assets/sports and outdoors/4/img2.jpg",
-	  "likes": 765
-	},
-	{
-	  "id": 15,
-	  "name": "OutdoorMaster OTG Ski Goggles",
-	  "price": 27.99,
-	  "description": "OTG (OVER-THE-GLASSES) DESIGN - Ski goggles that fits over glasses. Suitable for both ADULTS AND YOUTH. ANTI-FOG LENS & EXCELLENT OPTICAL CLARITY - Dual-layer lens technology with anti-fog coated inner lens gives you a FOG-FREE SKI EXPERIENCE. SAFE & RELIABLE WITH UV PROTECTION - Soft TPU frame with lenses that provide 100% UV400 protection and YEARS OF RELIABLE USE. UNIVERSAL HELMET COMPATIBILITY - Extra long elastic strap ensures great helmet compatibility with all helmets. Suitable for both adults & teens.",
-	  "category": "sports and outdoors",
-	  "link": "assets/sports and outdoors/5/img1.jpg",
-	  "link2": "assets/sports and outdoors/5/img2.jpg",
-	  "likes": 414
-	},
-	{
-	  "id": 16,
-	  "name": "Dr. Elsey\"s Litter",
-	  "price": 19.99,
-	  "description": "A clay litter uniquely formulated combining heavy non tracking granules with medium grain. The result is an excellent clumping litter that prevents moisture from reaching the bottom of the litter box, while providing a clump that will not break apart. Ultra is perfect for multi-cat families and cat owners with sifting or mechanical litter boxes and it controls odor naturally without perfume, deodorants or chemicals.",
-	  "category": "pet supplies",
-	  "link": "assets/pet supplies/1/img1.jpg",
-	  "link2": "assets/pet supplies/1/img2.jpg",
-	  "likes": 377
-	},
-	{
-	  "id": 17,
-	  "name": "Earth Rated Dog Poop Bags",
-	  "price": 14.99,
-	  "description": "BAG POOP BETTER: 9”x13” doggy bags keep your hands safe, and odor contained. More than enough capacity for large dogs! A customer recently said \"I love these bags - much thicker than the ones you buy at the store. The scent is not overpowering.\"",
-	  "category": "pet supplies",
-	  "link": "assets/pet supplies/2/img1.jpg",
-	  "link2": "assets/pet supplies/2/img2.jpg",
-	  "likes": 541
-	},
-	{
-	  "id": 18,
-	  "name": "ChomChom Hair Remover",
-	  "price": 24.95,
-	  "description": "The ChomChom Roller is one of the World’s Best Pet Hair Remover. By simply moving the pet hair roller back and forth, you immediately track and pick up cat hairs and dog hairs embedded deeply in sofas, couches, beds, carpets, blankets, comforters and more.",
-	  "category": "pet supplies",
-	  "link": "assets/pet supplies/3/img1.jpg",
-	  "link2": "assets/pet supplies/3/img2.jpg",
-	  "likes": 273
-	},
-	{
-	  "id": 19,
-	  "name": "Hertzko Self Cleaning Slicker Brush",
-	  "price": 15.99,
-	  "description": "THE PERFECT BRUSH TO GET ALL NASTY MATS OUT OF YOUR PET’S FUR – Hertzko’s Slicker Brush gently removes Loose Hair, and eliminates Tangles, Knots, Dander and trapped Dirt. WORKS",
-	  "category": "pet supplies",
-	  "link": "assets/pet supplies/4/img1.jpg",
-	  "link2": "assets/pet supplies/4/img2.jpg",
-	  "likes": 326
-	},
-	{
-	  "id": 20,
-	  "name": "Dog and Puppy Leak-proof",
-	  "price": 18.99,
-	  "description": "The disposable pads work well for potty training puppies, as well as for older dogs that are incontinent, sick, recovering from surgery, or traveling.",
-	  "category": "pet supplies",
-	  "link": "assets/pet supplies/5/img1.jpg",
-	  "link2": "assets/pet supplies/5/img2.jpg",
-	  "likes": 147
-	}
+   {
+      "id":1,
+      "name":"SAMSUNG EVO 256GB MicroSDXC",
+      "price":32.99,
+      "description":"Ideal for Recording 4K UHD Video: Samsung micro SD EVO Select is perfect for high res photos, gaming, music, tablets, laptops, action cameras, DSLR\"s, drones, smartphones (Galaxy S20 5G, S20+ 5G, S20 Ultra 5G, S10, S10+, S10e, S9, S9+, Note9, S8, S8+, Note8, S7, S7 Edge, etc. ), Android devices and more",
+      "category":"camera and photo",
+      "link":"../assets/camera and photo/1/1.jpg",
+      "link2":"../assets/camera and photo/1/2.jpg",
+      "likes":596
+   },
+   {
+      "id":2,
+      "name":"GoPro HERO9 Black",
+      "price":399.00,
+      "description":"More power. More clarity. More stability. The groundbreaking HERO9 Black sports a beastly 23.6MP sensor for ridiculous 5K video and stunning 20MP photos. A dazzling new front display delivers a live preview for easy framing, while a large rear touch screen with touch zoom provides fast, intuitive control. HERO9 Black boasts a powerful new feature suite, including HindSight, and supports live streaming and Webcam⁷ mode as well. Add in HyperSmooth 3.0, built-in mounting and 30% more battery life¹ for more of everything—in a camera that’s tough as nails and waterproof as ever. Available mods including the ultra-wide Max Lens Mod, Light Mod, Display Mod and Media Mod expand your creative options even more.",
+      "category":"camera and photo",
+      "link":"../assets/camera and photo/2/1.jpg",
+      "link2":"../assets/camera and photo/2/2.jpg",
+      "likes":1650
+   },
+   {
+      "id":3,
+      "name":"MagicFiber Microfiber Cleaning Cloths",
+      "price":8.99,
+      "description":"Engineered to clean, you won’t find any loose threads or coarse edges. Soft, durable and effective, they’re safe to use on your delicate screens and lenses. MagicFiber cloths protect what you care about at home, in the car, or at work. Use it to clean eyeglasses, smart phones, camera lenses, jewelry, glassware, mirrors, anything you want to keep Like New, Every Day.",
+      "category":"camera and photo",
+      "link":"../assets/camera and photo/3/1.jpg",
+      "link2":"../assets/camera and photo/3/2.jpg",
+      "likes":201
+   },
+   {
+      "id":4,
+      "name":"Compact Binoculars with Light Vision",
+      "price":30.59,
+      "description":"Our birding binoculars has 12x magnification,25mm objective lens,large eyepiece,and it is cover with BAK-4 prism texture,which can provide you a wide and amazing view.Moreover,This binocular with a pocket size is very compact and suitable carry everywhere.",
+      "category":"camera and photo",
+      "link":"../assets/camera and photo/4/1.jpg",
+      "link2":"../assets/camera and photo/4/2.jpg",
+      "likes":679
+   },
+   {
+      "id":5,
+      "name":"UBeesize 50” Phone Tripod Stand",
+      "price":20.99,
+      "description":"3-way Pan Head-The 3-way pan head equips with three separate knobs of the headlock, pan lock, and tilt lock, along with a quick-release plate and bubble level, it offers superb stability and gives you excellent, smooth results when employing pans and tilts during stills or video recording, including portrait shots, panoramic landscape shots and more.",
+      "category":"camera and photo",
+      "link":"../assets/camera and photo/5/1.jpg",
+      "link2":"../assets/camera and photo/5/2.jpg",
+      "likes":346
+   },
+   {
+      "id":6,
+      "name":"Acer SB220Q 21.5-inch Full HD",
+      "price":93.99,
+      "description":"The Acer SB220Q 21.5 Widescreen IPS display combines stylish ultra-thin functionality with amazing 1920 x 1080 resolution, allowing you to enjoy High-Definition entertainment and gaming in the comfort of your home. AMD Radeon FreeSync and rapid 4ms response time highlight the advanced technology.",
+      "category":"tv and monitors",
+      "link":"../assets/tv and monitors/1/img2.jpg",
+      "link2":"../assets/tv and monitors/1/img1.jpg",
+      "likes":582
+   },
+   {
+      "id":7,
+      "name":"ASUS 15.6-inch Portable Monitor (MB168B)",
+      "price":100.99,
+      "description":"The 15.6-inch MB168B portable USB-powered monitor needs just one USB cable for both its video signal and power to deliver up to a 1366 x 768 HD resolution. Thanks to the higher bandwidth of USB 3.0, experience fast, fluid images from your connected device that makes having an on-the-go multi-display setup a reality. What’s more, the MB168B is backwards compatible with a notebook or desktop PC USB 2.0 port.",
+      "category":"tv and monitors",
+      "link":"../assets/tv and monitors/2/1.jpg",
+      "link2":"../assets/tv and monitors/2/2.jpg",
+      "likes":2004
+   },
+   {
+      "id":8,
+      "name":"ELECROW 8 Inch Touchscreen Monitor",
+      "price":130.99,
+      "description":"This 8 inch touchscreen has a reliable multi-touch panel with a 16:10 aspect ratio. The monitor delivers excellent wide viewing angles and is compatible with multiple operating systems. The touchscreen monitor is designed for professional applications, easy to integrate and suitable for intensive use.",
+      "category":"tv and monitors",
+      "link":"../assets/tv and monitors/3/1.jpg",
+      "link2":"../assets/tv and monitors/3/2.jpg",
+      "likes":1504
+   },
+   {
+      "id":9,
+      "name":"Lenovo G27-20 27-inch Gaming Monitor",
+      "price":259.99,
+      "description":"G27-20 holds a 27-inch FHD 1920 x 1080 resolution In-Plane Switching panel display to render stunning game graphics with no color distortion, even at the widest possible viewing angles. Bright and right, with HDR decoding viewers are treated to a bright 400 cd/m2 display, while colors are bright, vivid and compellingly lifelike thanks to the 99% sRGB color gamut and true 8-bit color.",
+      "category":"tv and monitors",
+      "link":"../assets/tv and monitors/4/1.jpg",
+      "link2":"../assets/tv and monitors/4/2.jpg",
+      "likes":943
+   },
+   {
+      "id":10,
+      "name":"Ingcool 7\"\" HDMI LCD Touch Screen",
+      "price":59.99,
+      "description":"7DP-CAPLCD is a universal HDMI display, an IPS screen with 1024x600 resolution. This display has a capacitive touch panel, supports up to 5-points touch. 7DP-CAPLCD supports Raspberry Pi, can be used as a monitor of desktop PC.",
+      "category":"tv and monitors",
+      "link":"../assets/tv and monitors/5/1.jpg",
+      "link2":"../assets/tv and monitors/5/2.jpg",
+      "likes":233
+   },
+   {
+      "id":11,
+      "name":"Sonos Move - Smart Speaker",
+      "price":518.99,
+      "description":"Get brilliant sound anywhere with the all-new Sonos Move, the durable, battery-powered smart speaker for outdoor and indoor listening. Setup takes minutes, and control is simple with the Sonos app, Bluetooth, AirPlay 2, and your voice. Stream over WiFi and connect Move to the rest of your Sonos system at home. Switch to Bluetooth when you\"re away and offline. Amazon Alexa is built right in so on WiFi you can play music, check news, set alarms, get your questions answered, and more, completely hands free. Experience surprisingly deep bass, a wide soundscape, and automatic Trueplay tuning that perfectly balances the sound for where you are and what you\"re listening to. Enjoy up to 11 hours of continuous play time and deep, powerful sound. Easily recharge Move on the included base, or a compatible USB-C charger.",
+      "category":"smart home",
+      "link":"../assets/smart home/1/1.jpg",
+      "link2":"../assets/smart home/1/2.jpg",
+      "likes":824
+   },
+   {
+      "id":12,
+      "name":"Logitech Hub for Control of Home",
+      "price":89.99,
+      "description":"Turn your TV to sports, crank the volume, play and pause the action all with one touch or voice command. Works with Amazon’s Alexa to provide easy voice control.",
+      "category":"smart home",
+      "link":"../assets/smart home/2/1.jpg",
+      "link2":"../assets/smart home/2/1.jpg",
+      "likes":943
+   },
+   {
+      "id":13,
+      "name":"Apple TV 4K",
+      "price":155.99,
+      "description":"Apple TV 4K lets you watch movies and shows in amazing 4K HDR - and now it completes the picture with immersive sound from Dolby Atmos. It streams your favorite channels live. Has great content from apps like Netflix, Amazon Prime Video, and ESPN. And thanks to Siri, you can control it all with just your voice.",
+      "category":"smart home",
+      "link":"../assets/smart home/3/1.jpg",
+      "link2":"../assets/smart home/3/2.jpg",
+      "likes":77
+   },
+   {
+      "id":14,
+      "name":"Fire TV Stick 4K streaming device",
+      "price":49.99,
+      "description":"Unlock a complete 4K Ultra HD experience- With support for leading HDR formats, Dolby Atmos Audio, access to the latest 4K content, and a lightning-fast processor, Fire TV Stick 4K enables you to experience the beauty of 4K Ultra HD movies and shows on your TV.",
+      "category":"smart home",
+      "link":"../assets/smart home/4/1.jpg",
+      "link2":"../assets/smart home/4/2.jpg",
+      "likes":1440
+   },
+   {
+      "id":15,
+      "name":"Bose SoundLink Color II",
+      "price":129.00,
+      "description":"From the pool to the park to the patio, the SoundLink Color Bluetooth speaker II provides full range, portable sound anywhere you go. Advanced Bose technology packs big sound into a small, water resistant speaker that’s durable enough to take with you, however the day unfolds, even if it’s next to the pool. It’s durably built, with an easy touch silicone texture that won’t slip out of your hand when you’re on the move. And it’s just as simple to use—voice prompts tell you what device you’re paired to so you don’t have to guess, and if you’re using an NFC enabled device, just pair with a tap. Need to keep the music flowing? You’re covered with up to 8 hours of music, and it’s rechargeable via Micro B USB. There’s even a built in speakerphone to handle calls without holding your phone. Also download the Bose Connect app to drag and drop Bluetooth connections, unlock features and access updates down the line. This small colored wireless speaker is available in Aquatic Blue, Coral Red, Soft Black or Polar White. Included: SoundLink Color Bluetooth speaker II; USB cable.",
+      "category":"smart home",
+      "link":"../assets/smart home/5/1.jpg",
+      "link2":"../assets/smart home/5/2.jpg",
+      "likes":777
+   },
+   {
+      "id":16,
+      "name":"SAMSUNG Galaxy Buds Pro",
+      "price":199.99,
+      "description":"Elevate the everyday with epic sound. Samsung Galaxy Buds Pro combines crystal-clear sound quality with unprecedented control, making it effortless to elevate everyday moments. Use intelligent Active Noise Cancellation to escape into your music at a moment’s notice, even in a noisy crowd. Close the distance with crystal clear calls, so it always feels like you’re in the same room. And water won’t ruin your workout since the resistant Galaxy Buds Pro keeps the beat going even with a little rain. Auto pair your Galaxy Buds Pro with a Palette and find even more ways to make ordinary extraordinary. Disclaimers: Actual battery life may vary and depend on usage conditions such as function settings, playback file type, and Bluetooth signal strength. Some features require Bluetooth connection to a compatible device, and are available only on Android devices running Android 7.0 or higher and 1.5GB RAM or above.",
+      "category":"headphones",
+      "link":"../assets/headphones/1/2.jpg",
+      "link2":"../assets/headphones/1/1.jpg",
+      "likes":2304
+   },
+   {
+      "id":17,
+      "name":"Sony ZX Series MDR-ZX110",
+      "price":99.99,
+      "description":"Maximizing your personal audio experience has never been easier than with SONY ZX-Series Monitor headphones. Built with comfort and performance in mind, there\"s no need to compromise.",
+      "category":"headphones",
+      "link":"../assets/headphones/2/2.jpg",
+      "link2":"../assets/headphones/2/1.jpg",
+      "likes":1348
+   },
+   {
+      "id":18,
+      "name":"Sephia SP3060 Earbuds",
+      "price":14.95,
+      "description":"Easy to slip in your pocket or backpack, these earbuds also let you control music and video playback, answer and end calls. The charm silver and black colour make them look more noble and elegant, while high quality and enhanced materials mean they last longer.Enjoy superior and fuss-free music listening with the reinforced tangle-free cables, that reduce unwanted contact noises, and the gold plated plug that offers a high-grade connection.",
+      "category":"headphones",
+      "link":"../assets/headphones/3/1.jpg",
+      "link2":"../assets/headphones/3/2.jpg",
+      "likes":99
+   },
+   {
+      "id":19,
+      "name":"Lasuney IPX7 Bluetooth Earbuds",
+      "price":29.99,
+      "description":"Type-C Fast Charging And Continuous Worktime-- After one single charge, LASUNEY T19 Wireless earbuds can be used continuously for 4 hours. With the Type-C fast charging design, the charging case can be fully charged in a short time and recharge the earbuds 5 additional times. The mini portable charging case is as big as a car key, which can be carried with you and charge your earbuds anywhere.",
+      "category":"headphones",
+      "link":"../assets/headphones/4/1.jpg",
+      "link2":"../assets/headphones/4/2.jpg",
+      "likes":540
+   },
+   {
+      "id":20,
+      "name":"Wireless Earbuds, Mpow M30",
+      "price":29.28,
+      "description":"Surpass All Your Expectation: 1.Use either earbud at a time for calls and music. You can switch freely between twin mode and mono mode. 2. Unlike others, M30 is a thoughtful product. If you lose one earbud, just simply purchase the exact one instead of a new pair. 3. Besides play & pause, M30 also supports volume & tracks control for more convenience",
+      "category":"headphones",
+      "link":"../assets/headphones/5/1.jpg",
+      "link2":"../assets/headphones/5/2.jpg",
+      "likes":647
+   }
 ]

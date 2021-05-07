@@ -1,5 +1,5 @@
 from django.core.management.base import BaseCommand, CommandError
-from store.models import Category, Product
+from models import Category,Product
 import json
 
 class Command(BaseCommand):
