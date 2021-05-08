@@ -6,9 +6,10 @@ from django.http import JsonResponse,HttpResponse
 from store.models import Consumer,Category,Product,Order,OrderProduct
 from store.serializers import ConsumerModelSerializer,CategoryModelSerializer,ProductModelSerializer,OrderModelSerializer,OrderProductModelSerializer
 
-from rest_framework.decorators import api_view
+from rest_framework.decorators import api_view,permission_classes
 from rest_framework.response import Response
 from rest_framework.views import APIView
+from rest_framework.permissions import IsAuthenticated
 
 from django.core import serializers
 
