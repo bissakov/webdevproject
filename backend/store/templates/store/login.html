@@ -58,17 +58,22 @@
         <p>ACCESS ERROR</p>
         {% endif %}
 
-        <form method="post" action="{% url 'login' %}" class="box">
-            <div class="container">
-                {% csrf_token %}
-                <p><label for="username"><b>Username</b></label></p>
-                {{ form.username }}
-                <p><label for="psw"><b>Password</b></label></p>
-                {{ form.password }}
-                <input type="submit" value="login">
-                <input type="hidden" name="next" value="{{next}}">
-            </div>
-        </form>
+        {% if user.is_authenticated %}
+        <h1 style="text-align: center;">YOU'VE ALREADY SIGNED IN</h1>
+
+        {% else %}
+            <form method="post" action="{% url 'login' %}" class="box">
+                <div class="container">
+                    {% csrf_token %}
+                    <p><label for="username"><b>Username</b></label></p>
+                    {{ form.username }}
+                    <p><label for="psw"><b>Password</b></label></p>
+                    {{ form.password }}
+                    <input type="submit" value="login">
+                    <input type="hidden" name="next" value="{{next}}">
+                </div>
+            </form>
+        {% endif %}
     </body>
 </html>
   
